@@ -4,5 +4,6 @@
 #include "types.h"
 
 size_t strlen(char* str);
+bool streq(char* a, char* b); // I hate strcmp()
 
 #endif
