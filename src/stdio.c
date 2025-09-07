@@ -1,4 +1,5 @@
 #include "stdio.h"
+#include "string.h"
 
 int write(int loc, char* buf, int size) {
     int result;
@@ -18,4 +19,8 @@ int write(int loc, char* buf, int size) {
     );
 
     return result;
+}
+
+void print(char* str) {
+    write(STDOUT, str, strlen(str));
 }
