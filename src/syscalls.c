@@ -1,4 +1,4 @@
-#include "exit.h"
+#include "syscalls.h"
 
 void exit(int code) {
     while(1) {
@@ -7,8 +7,8 @@ void exit(int code) {
             "mov %1, %%rdi \n"
             "syscall"
             :
-            : "r" ((uintptr_t) SYS_EXIT),
-              "r" ((uintptr_t) code)
+            : "r" ((uint64_t) SYS_EXIT),
+              "r" ((uint64_t) code)
             : "%rax", "%rdi" 
         );
     }

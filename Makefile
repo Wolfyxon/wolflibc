@@ -4,7 +4,7 @@ CFLAGS := -nostdlib -Wno-builtin-declaration-mismatch
 
 # Paths
 SRC := src
-FILES := exit.c exit.h  main.c  main.h  stdio.h  syscalls.h  types.h string.h
+FILES :=  main.c  main.h  stdio.h  syscalls.h syscalls.c types.h string.h
 
 # TODO: Improve
 
