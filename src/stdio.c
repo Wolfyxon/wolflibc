@@ -1,7 +1,7 @@
 #include "stdio.h"
 #include "string.h"
 
-int write(int loc, char* buf, int size) {
+int write(int loc, char* buf, size_t size) {
     int result;
 
     asm(

@@ -8,7 +8,7 @@
 #define STDOUT 1
 #define STDERR 2
 
-void write(int loc, char* buf, size_t size);
+int write(int loc, char* buf, size_t size);
 void print(char* str);
 
 #endif
