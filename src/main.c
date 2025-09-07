@@ -1,6 +1,6 @@
 #include "main.h"
 
 void _start(void) {
-    // TODO: Call main()
+    // TODO: Get argc, argv and call main()
     exit(1);
 }
