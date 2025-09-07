@@ -14,6 +14,5 @@
 #define EXIT_FAILURE 1
 
 void exit(int code);
-void write(int loc, char* buf, size_t size);
 
 #endif
