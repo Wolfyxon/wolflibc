@@ -2,5 +2,5 @@
 
 void _start(void) {
     // TODO: Call main()
-    exit(1);
+    exit(0);
 }
