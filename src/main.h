@@ -1,7 +1,7 @@
 #ifndef WOLFLIBC_MAIN_H
 #define WOLFLIBC_MAIN_H
 
-#include "syscalls.h"
+#include "stdlib.h"
 
 void _start();
 
