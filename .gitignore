@@ -1,4 +1,5 @@
 *.gch
 *.o
+*.a
 *.exe
 a.out
