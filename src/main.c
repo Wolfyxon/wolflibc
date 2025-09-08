@@ -1,9 +1,14 @@
 #include "main.h"
 
-extern int main(int argc, char **argv);
+extern int main(int argc, char **argv, char** envp);
 
 void _start(void) {
     // TODO: Get argc, argv and call main()
-    main(0, NULL);
-    exit(0);
+
+    int argc = 0;
+    char** argv;
+    char** envp;
+
+    int code = main(argc, argv, envp);
+    exit(code);
 }
