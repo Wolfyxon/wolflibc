@@ -3,6 +3,9 @@
 
 #include "stdlib.h"
 
+extern int main(int argc, char** argv, char** envp);
+
 void _start();
+
 
 #endif
