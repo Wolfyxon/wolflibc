@@ -28,5 +28,5 @@ examples: lib
 
 clean:
 	rm -rf $(SRC)/*.gch
-	rm -rf *.o
+	rm -rf $(BUILD)
 
