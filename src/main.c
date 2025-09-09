@@ -2,7 +2,7 @@
 
 __attribute__((naked))
 void _start(void) {
-    register long *rsp asm("rsp");
+    register long* rsp asm("rsp");
     
     int argc = (int) rsp[0];
     char** argv = (char**) &rsp[1];
